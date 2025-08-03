@@ -37,10 +37,6 @@ This project utilizes **IBM Cloud watsonx.ai**, **Granite Foundation Models**, a
 
 ## 📊 Output Screenshots
 
-<!-- 
-  This table uses 100% width and has two columns of equal width.
-  You can change the `width` attribute of each <img> tag to adjust the image size.
--->
 <table>
   <tr>
     <td>
