@@ -61,5 +61,5 @@ This project utilizes **IBM Cloud watsonx.ai**, **Granite Foundation Models**, a
 </div>
 <br>
 <div align="center">
-  <img src="assets/deployed_3.PNG" width="800"/>
+  <img src="assets/deployed_3.PNG" width="700"/>
 </div>
