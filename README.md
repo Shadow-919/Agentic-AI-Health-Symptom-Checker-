@@ -17,34 +17,53 @@ This project utilizes **IBM Cloud watsonx.ai**, **Granite Foundation Models**, a
 
 ---
 
+## 🛠️ Technology Used
+
+- **IBM Cloud watsonx.ai Studio:** Main environment for building and deploying LLM-powered agents.
+- **Granite Foundation Model:** IBM’s cutting-edge large language model for natural, context-aware responses.
+- **Retrieval Augmented Generation (RAG):** Ensures answers are grounded and cited from trusted healthcare documents (vector index from WHO/CDC/NHS sources).
+- **IBM Cloud Object Storage:** Stores all referenced documents and medical guidance files.
+- **Safe Conversation Flows:** Structured so the assistant never diagnoses and always provides clear medical disclaimers.
+
+---
+
 ## 🖼️ Agent Preview
 
-Below is the preview screenshot of the agent interface:
-
-![Agent Preview](assets/agent preview.PNG)
+<div align="center">
+  <img src="assets/agent_preview.PNG" width="500"/>
+</div>
 
 ---
 
 ## 📊 Output Screenshots
 
-Here are two example outputs from the agent, displayed side by side for easy comparison:
-
-| ![Output 1](images/output1.png) | ![Output 2](images/output2.png) |
-|:-----------------------------:|:------------------------------:|
+<!-- 
+  This table uses 100% width and has two columns of equal width.
+  You can change the `width` attribute of each <img> tag to adjust the image size.
+-->
+<table>
+  <tr>
+    <td>
+      <img src="assets/1st_output.PNG" width="500"/>
+    </td>
+    <td>
+      <img src="assets/2nd_output.PNG" width="500"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🌐 Deployed Agent – Live Demo Outputs
 
-Screenshots captured from the **deployed AI Health Symptom Checker** showing live user interactions:
-
-| ![Deployed 1](images/deployed1.png) | ![Deployed 2](images/deployed2.png) |
-|:-----------------------------------:|:-----------------------------------:|
-
-|                ![Deployed 3 – Large](images/deployed3.png)                |
-
-
----
-
-*For best results, replace all image filenames (`images/...png`) with your actual screenshot filenames in the `images` folder of your repo!*
-
+<div align="center">
+  <img src="assets/deployed_1.PNG" width="1000"/>
+</div>
+<br>
+<div align="center">
+  <img src="assets/deployed_2.PNG" width="1000"/>
+</div>
+<br>
+<div align="center">
+  <img src="assets/deployed_3.PNG" width="800"/>
+</div>
